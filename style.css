@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+div.ramda{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.container{
+    width: 100%;
+}
+
+div.header{
+    background-color: rgb(51, 51, 51);
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+div.header a{
+    height: 5vh;
+    padding-top: 15px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+}
+
+div.header a:hover{
+        opacity: 0.8;
+}
+div .nav{
+    display: flex;
+    margin-top: 1.5em;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+div .right-side-bar{
+}
+
+div.picture{
+    border: 1px solid black;
+
+
+}
+
+div > img{
+    margin-left: 25%;
+}
+
+
+
+div.left-side-bar{
+    display: flex;
+    border: 1px solid black;
+    height:29vh
+}
+div.left-side-bar li{
+    width: 12em;
+    height: 22px;
+    padding: 10px 0;
+}
+div.left-side-bar li:hover{
+    background-color: rgb(153, 154, 154);
+}
+
+
+div.footer{
+    background-color: rgb(148, 143, 143);
+    height: 5vh;
+    margin-top: 2em;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+div.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+div.footer a:hover{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
